@@ -2,7 +2,11 @@
 import Header from "../header/Header";
 
 const Homepage = () => {
-  return <Header />;
+  return (
+    <main className="min-h-screen bg-mine-shaft-950 text-white">
+      <Header />
+    </main>
+  ) 
 };
 
 export default Homepage;
