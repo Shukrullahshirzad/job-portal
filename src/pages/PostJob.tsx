@@ -1,0 +1,12 @@
+import React from "react";
+
+const PostJob = () => {
+  return (
+    <div className="p-8 text-mine-shaft-50">
+      <h2 className="text-2xl font-bold">Post a Job</h2>
+      <p>Placeholder page for posting a job.</p>
+    </div>
+  );
+};
+
+export default PostJob;
